@@ -34,7 +34,7 @@ body {
   }
 }
 
-.welcome-menu {
+.welcome-nav {
   padding: 5px;
   @include mq(768px) {
     // background: linear-gradient(
@@ -56,11 +56,11 @@ body {
   }
 }
 
-.menu {
+.nav {
   margin: 2rem 0;
 }
 
-.menu-item {
+.nav-item {
   list-style: none;
 
   a {
@@ -74,11 +74,11 @@ body {
   }
 }
 
-.menu-item a:hover {
+.nav-item a:hover {
   color: $crumbly-burger-red;
 }
 
-.menu-button {
+.nav-button {
   display: flex;
   background-color: $crumbly-burger-red;
   padding: 0.2rem;
@@ -94,7 +94,7 @@ body {
   }
 }
 
-.menu-button:hover {
+.nav-button:hover {
   background-color: $crumbly-burger-dark-red;
   transform: scale(1.1);
 }
