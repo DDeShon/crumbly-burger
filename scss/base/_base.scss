@@ -8,6 +8,7 @@ html {
   background-color: $crumbly-burger-red;
   background-image: url("../../dist/media/crumbly-burger.png");
   background-size: cover;
+  background-repeat: no-repeat;
   font-size: 13px;
   font-family: "Caveat Brush", cursive;
   font-weight: bold;
@@ -26,33 +27,48 @@ body {
 
 #welcome {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "welcome-nav"
+    "menu-container"
+    "menu-container";
   width: 100%;
   height: 100vh;
+
   @include mq(768px) {
     grid-template-columns: 300px 1fr;
   }
 }
 
+// #welcome {
+//   display: grid;
+//   grid-template-columns: 1fr 2fr;
+//   width: 100%;
+//   height: 100vh;
+
+//   @include mq(768px) {
+//     grid-template-columns: 300px 1fr;
+//   }
+// }
+
 .welcome-nav {
   padding: 5px;
+
   @include mq(768px) {
-    // background: linear-gradient(
-    //   0deg,
-    //   rgba(255, 255, 255, 1) 0%,
-    //   rgba(156, 156, 156, 1) 100%
-    // );
     padding: 20px 50px 0 50px;
   }
 }
 
 .logo {
-  display: flex;
+  display: grid;
   margin-bottom: 50px;
 
   img {
-    width: 100%;
+    width: 50%;
     height: 150px;
+
+    @include mq(768px) {
+      width: 70%;
+    }
   }
 }
 
@@ -129,14 +145,15 @@ body {
   }
 }
 
-#menu-section {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-  align-items: cover;
-}
+.menu-container {
+  margin-top: 5px;
+  img {
+    min-width: 400px;
+    max-width: 100%;
+    height: 49vh;
+  }
 
-#menu-section img {
-  min-width: 400px;
-  max-width: 80%;
+  @include mq(1200px) {
+    margin-left: 20%;
+  }
 }
