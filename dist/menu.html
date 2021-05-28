@@ -1,84 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <script src="scripts/main.js"></script>
     <title>Crumbly Burger</title>
-</head>
-<body>
+  </head>
+  <body>
     <section id="welcome">
-        <div class="welcome-nav">
-          <div class="logo">
-            <img
-              src="media/crumbly-burger-logo-new.png"
-              alt="Crumbly Burger"
-            />
-          </div>
-          <div class="nav">
-            <ul class="nav-list">
-                <li class="nav-item">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Careers</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Gift Cards</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#">Contact Us</a>
-                </li>
-                <!-- <button type="button" class="menu-button">
+      <div class="welcome-nav">
+        <div class="logo">
+          <img src="media/crumbly-burger-logo-new.png" alt="Crumbly Burger" />
+        </div>
+        <div class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" onclick="hoursBox()">Hours</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Contact Us</a>
+            </li>
+            <!-- <button type="button" class="menu-button">
                     <a href="#" target="_blank">Tasty App</a> -->
-                <button type="button" class="nav-button">
-                    <a href="https://www.grubhub.com/restaurant/crumbly-burger-2701-frederick-avenue-saint-joseph/1637709?utm_medium=grubhub-owned-menu-properties&utm_source=allmenus.com&utm_content=1637709&utm_campaign=menu-page&affiliate=1079">Order Now</a>
-            </ul>
+            <button type="button" class="nav-button">
+              <a
+                href="https://www.grubhub.com/restaurant/crumbly-burger-2701-frederick-avenue-saint-joseph/1637709?utm_medium=grubhub-owned-menu-properties&utm_source=allmenus.com&utm_content=1637709&utm_campaign=menu-page&affiliate=1079"
+                >Order Now</a
+              >
+            </button>
+          </ul>
+        </div>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/Crumbly-Burger-111671622204159/"
+            ><img
+              src="https://img.icons8.com/ios/50/000000/facebook--v1.png"
+              height="60px"
+              width="60px"
+          /></a>
+          <a href="https://twitter.com/659429c36e714b9"
+            ><img
+              src="https://img.icons8.com/ios/50/000000/twitter-squared.png"
+              height="60px"
+              width="60px"
+          /></a>
+          <a href="https://www.instagram.com/crumbly_burger/"
+            ><img
+              src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"
+              height="60px"
+              width="60px"
+          /></a>
+        </div>
+        <div class="location">
+          <div class="address">
+            2701 Frederick Ave, <br />
+            Saint Joseph, MO 64506
           </div>
-          <div class="social-icons">
-            <a href="https://www.facebook.com/Crumbly-Burger-111671622204159/" 
-              ><img
-                src="https://img.icons8.com/ios/50/000000/facebook--v1.png"
-                height="60px"
-                width="60px"
-            /></a>
-            <a href="https://twitter.com/659429c36e714b9"
-              ><img
-                src="https://img.icons8.com/ios/50/000000/twitter-squared.png"
-                height="60px"
-                width="60px"
-            /></a>
-            <a href="https://www.instagram.com/crumbly_burger/"
-              ><img
-                src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"
-                height="60px"
-                width="60px"
-            /></a>
-          </div>
-          <div class="location">
-            <div class="address">
-              2701 Frederick Ave, <br />
-              Saint Joseph, MO  64506
-            </div>
-            <div class="phone-number">
-              <a href="tel:+18163878867">+1-816-387-8867</a>
-            </div>
+          <div class="phone-number">
+            <a href="tel:+18163878867">+1-816-387-8867</a>
           </div>
         </div>
-        <div class="menu-container">
-          <div class="menu-item">
-            <img src="/dist/media/menu-1.png" alt="">
-          </div>
-          <div class="menu-item">
-            <img src="/dist/media/menu-2.png" alt="">
-          </div>
+      </div>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="/dist/media/menu-1.png" alt="" />
         </div>
-      </section>
-</body>
+        <div class="menu-item">
+          <img src="/dist/media/menu-2.png" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
