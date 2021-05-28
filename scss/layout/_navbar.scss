@@ -29,7 +29,7 @@
     height: 150px;
 
     @include mq(768px) {
-      width: 70%;
+      width: 100%;
     }
   }
 }
@@ -43,10 +43,10 @@
 
   a {
     text-decoration: none;
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color: black;
-    margin-bottom: 1.3rem;
+    margin-bottom: 2rem;
     display: block;
     transition: color 0.4s ease-in-out;
   }
@@ -57,7 +57,7 @@
 }
 
 .location {
-  line-height: 1.3rem;
+  line-height: 1.4rem;
 
   .address {
     margin-bottom: 1rem;
