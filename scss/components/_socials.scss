@@ -6,10 +6,10 @@
   a {
     margin-right: 5px;
     text-decoration: none;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+  }
 
-    :hover {
-      transform: scale(1.25);
-    }
+  a:hover {
+    transform: scale(1.25);
   }
 }
