@@ -2,8 +2,7 @@
   background-color: $crumbly-burger-red;
   height: 350px;
   width: 350px;
-  border: 15px solid $font-color;
-  border-style: double;
+  box-shadow: inset 0 0 0 5px $crumbly-burger-red, inset 0 0 0 10px $font-color;
   margin: 100px auto;
 
   @include mq(768px) {
