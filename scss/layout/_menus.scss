@@ -5,6 +5,8 @@
   margin: 5px 10px;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.6);
+  border-style: dotted;
+  border-color: $crumbly-burger-red;
 
   span {
     font-size: 6px;
@@ -30,7 +32,7 @@
 
     .menu-item p {
       display: inline-block;
-      padding-top: 10px;
+      padding: 10px 5px 0 10px;
     }
 
     .food-item {
@@ -56,7 +58,7 @@
 
     .menu-item p {
       display: inline-block;
-      padding-top: 10px;
+      padding: 10px;
     }
 
     .food-item {
