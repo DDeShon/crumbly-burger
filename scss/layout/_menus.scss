@@ -13,7 +13,6 @@
   .header {
     grid-column: auto / span 2;
     font-size: 36px;
-    background-color: blue;
     color: $crumbly-burger-red;
     text-align: center;
   }
@@ -28,7 +27,6 @@
     padding: 5px;
     font-size: 10px;
     color: $crumbly-burger-red;
-    background-color: blue;
 
     .menu-item p {
       display: inline-block;
@@ -55,7 +53,6 @@
     padding: 5px;
     font-size: 10px;
     color: $crumbly-burger-red;
-    background-color: blue;
 
     .menu-item p {
       display: inline-block;
