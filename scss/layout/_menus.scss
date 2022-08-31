@@ -94,7 +94,7 @@
     }
   }
 
-  @include mq(1200px) {
+  @include mq(1024px) {
     .left {
       height: 85vh;
       font-size: 20px;
