@@ -1,6 +1,6 @@
 .menu-container {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 55% 45%;
   grid-gap: 5px;
   margin: 5px 10px;
   padding: 10px;
@@ -76,29 +76,29 @@
 
     .food-item {
       text-align: left;
-      width: 45%;
+      width: 42%;
       line-height: 1rem;
       text-decoration: underline;
     }
 
     .kids {
       text-align: right;
-      width: 10%
+      width: 12%
     }
 
     .small {
       text-align: right;
-      width: 10%;
+      width: 12%;
     }
 
     .medium {
       text-align: right;
-      width: 10%;
+      width: 12%;
     }
     
     .large {
       text-align: right;
-      width: 10%;
+      width: 12%;
     }
   }
 
@@ -112,25 +112,25 @@
       padding: 5px 5px 0 0;
     }
 
-    .food-item {
+    .side-item {
       text-align: left;
-      width: 45%;
+      width: 40%;
       line-height: 1rem;
     }
 
     .small {
       text-align: right;
-      width: 15%;
+      width: 17%;
     }
     
     .medium {
       text-align: right;
-      width: 15%;
+      width: 17%;
     }
     
     .large {
       text-align: right;
-      width: 15%;
+      width: 17%;
     }
   }
 
@@ -158,8 +158,8 @@
     
   }
 
-  @include mq(1024px) {
-    grid-template-columns: 60% 40%;
+  @include mq(1200px) {
+    grid-template-columns: 50% 50%;
 
     .header {
       font-size: 36px;
