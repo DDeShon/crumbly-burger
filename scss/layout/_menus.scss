@@ -15,7 +15,7 @@
 
   .header {
     grid-column: auto / span 2;
-    font-size: 36px;
+    font-size: 24px;
     color: $crumbly-burger-red;
     text-align: center;
 
@@ -27,12 +27,12 @@
   }
 
   .sub-header {
-    font-size: 24px;
+    font-size: 18px;
     color: $crumbly-burger-red;
     text-align: center;
   }
 
-  .left {
+  .favorites {
     padding: 5px;
     font-size: 12px;
     color: $crumbly-burger-red;
@@ -61,6 +61,44 @@
     .price-meal {
       text-align: right;
       width: 15%;
+    }
+  }
+
+  .ice-cream {
+    padding: 5px;
+    font-size: 12px;
+    color: $crumbly-burger-red;
+
+    .menu-item p {
+      display: inline-block;
+      padding: 5px 5px 0 0;
+    }
+
+    .food-item {
+      text-align: left;
+      width: 45%;
+      line-height: 1rem;
+      text-decoration: underline;
+    }
+
+    .kids {
+      text-align: right;
+      width: 10%
+    }
+
+    .small {
+      text-align: right;
+      width: 10%;
+    }
+
+    .medium {
+      text-align: right;
+      width: 10%;
+    }
+    
+    .large {
+      text-align: right;
+      width: 10%;
     }
   }
 
@@ -97,35 +135,45 @@
   }
 
   @include mq(768px) {
-    .left {
+    .favorites {
       .food-item {
-      width: 58%;
-    }
-    .food-item-xtra {
-      text-align: right;
-      width: 12%;
-    }
+      width: 55%;
+      }
 
-    .price-solo {
-      text-align: right;
-      width: 12%;
-    }
-    
-    .price-meal {
-      text-align: right;
-      width: 12%;
-    }
+      .food-item-xtra {
+        text-align: right;
+        width: 12%;
+      }
+
+      .price-solo {
+        text-align: right;
+        width: 12%;
+      }
+      
+      .price-meal {
+        text-align: right;
+        width: 12%;
+      }
     }
     
   }
 
   @include mq(1024px) {
+    grid-template-columns: 60% 40%;
+
+    .header {
+      font-size: 36px;
+    }
+
+    .sub-header {
+      font-size: 24px;
+    }
+    
     span {
       font-size: 12px;
     }
 
     .left {
-      // height: 85vh;
       font-size: 20px;
     
       .food-item.sauces {
@@ -133,9 +181,33 @@
         width: 80%;
       }
     }
+    
+    .ice-cream {
+      .food-item {
+      width: 55%;
+      }
+    
+      .kids {
+        width: 8%
+      }
+  
+      .small {
+        width: 8%;
+      }
+  
+      .medium {
+        width: 8%;
+      }
+      
+      .large {
+        width: 8%;
+      }
+    }
+
+
+
 
     .right {
-      // height: 85vh;
       font-size: 20px;
     }
 
