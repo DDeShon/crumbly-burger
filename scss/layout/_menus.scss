@@ -18,6 +18,11 @@
     font-size: 36px;
     color: $crumbly-burger-red;
     text-align: center;
+
+    a {
+      text-decoration: none;
+      color: $crumbly-burger-red
+    }
   }
 
   .sub-header {
