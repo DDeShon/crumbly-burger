@@ -1,4 +1,3 @@
 ﻿# crumbly-burger
 
-
-This is a web site mock up for the Crumbly Burger restaurant in Saint Joseph, MO.
+This is a web site mock up for the Crumbly Burger restaurant.
